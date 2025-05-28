@@ -26,7 +26,7 @@ const Keyboard: React.FC<KeyboardProps> = ({ onKeyPress, keyboardState }) => {
       case 'present':
         return 'bg-amber-500 text-white border-amber-500 hover:bg-amber-600';
       case 'absent':
-        return 'bg-gray-600 text-white border-gray-600 hover:bg-gray-700';
+        return 'bg-gray-800 text-white border-gray-600 hover:bg-gray-700';
       default:
         return 'bg-gray-300 dark:bg-gray-600 hover:bg-gray-400 dark:hover:bg-gray-500';
     }
